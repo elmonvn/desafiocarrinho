@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: carrinho
+  data:
+    jpa:
+      repositories:
+        enabled: true
+  security:
+    user:
+      name: admin
+      password: password
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.DerbyDialect
+  datasource:
+    url: jdbc:derby:db/carrinhodb;create=true
+    username: carrinhodb
+    password: password

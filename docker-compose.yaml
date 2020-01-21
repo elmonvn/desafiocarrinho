@@ -1,0 +1,26 @@
+version: '3.7'
+
+services:
+    derby:
+        image: az82/docker-derby
+        container_name: carrinho-db
+        restart: always
+        networks:
+            - backend
+        ports:
+            - 1527:1527
+        volumes:
+            - ./db:/dbs
+            
+#    spring:
+#        image:
+#        container_name: carrinho-api
+#        restart: always
+#        networks:
+#            - backend
+
+networks:
+    backend:
+
+volumes:
+  db-data:
