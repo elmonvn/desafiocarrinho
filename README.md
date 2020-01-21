@@ -94,8 +94,7 @@ O serviço estará disponível no endereço `http://localhost:8080/api`
 
 ## Limitações
 
-* Credenciais e apontamentos para o DB estão _hardcoded_ no código;
-* Chamadas de encurtamento de URLs com o caracter **&** na linha de comando devem ser com o caracter de escape, ou seja, **\\&**.
+* Algumas funcionalidades sugeridas não foram implementadas. 
 
 ## Melhorias futuras
 
