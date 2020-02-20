@@ -8,7 +8,7 @@ Projeto para criação de RESTful API para serviço de carrinho de compras
 
 ## Apresentação da solução
 
-O aplicativo consiste serviço de **__carrinho de compra__**s em arquitetura de **__REST API__**.
+O aplicativo consiste serviço de **__carrinho de compras__** em arquitetura de **__REST API__**.
 
 Apesar de ser uma solução padrão e simples, optou-se por implementar este projeto como um **_RESTful API server_**, em arquitetura **_Model-View-Controller_** (**_MVC_**), para demonstrar a robustez e a flexibildiade do __framework__  [**_Spring Data REST_**](https://spring.io/projects/spring-data-rest). 
  
