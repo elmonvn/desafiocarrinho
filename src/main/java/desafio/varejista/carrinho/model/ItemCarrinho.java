@@ -25,7 +25,9 @@ public class ItemCarrinho {
 	
 	@Embeddable
 	@Data
-	public static class ItemCarrinhoId implements Serializable {
+	public static class ItemCarrinhoId implements Serializable {		
+	    private static final long serialVersionUID = 4L;
+		
 		@Column(name = "carrinho_id")
 		protected Long carrinhoId;
 		

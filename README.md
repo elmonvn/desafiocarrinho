@@ -99,7 +99,7 @@ O serviço estará disponível no endereço `http://localhost:8080/api`
 ## Melhorias futuras
 
 * Desenvolver testes unitários.
-* Atenticação com __Spring Security__.
+* Autenticação com __Spring Security__.
 * Particionar __endpoints__ de acordo com funcionalidade, com o intuito de torná-los entradas para microsserviços de produtos, cupons etc.
 * Utilização de base de dados __standalone__, sem descartar o Apache Derby.
 * Inclusão do serviço __Swagger__ para guiar definição da API e __endpoints__
