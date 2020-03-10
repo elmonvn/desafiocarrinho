@@ -12,7 +12,7 @@ import desafio.varejista.carrinho.model.Produto;
  * @author elmonvn
  *
  */
-@RepositoryRestResource(collectionResourceRel = "produto", path = "produto")
+@RepositoryRestResource(collectionResourceRel = "produto", path = "produtos")
 public interface ProdutoRepository extends CrudRepository<Produto, Long> {
 
 }

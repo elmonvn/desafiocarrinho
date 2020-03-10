@@ -48,6 +48,8 @@ Após seu download, o pacote <code>jar</code> acima deve executado como:
     
 O serviço estará disponível no endereço `http://localhost:8080/api` 
 
+### Exemplos de acesso à API
+
 #### Cadastrar cupom (com código e % de desconto)
 
     curl -vX POST -H "Content-type: application/json" -d '{"codigo": "sextou", "desconto": "20"}' http://localhost:8080/api/cupom

@@ -12,7 +12,7 @@ import desafio.varejista.carrinho.model.Cupom;
  * @author elmonvn
  *
  */
-@RepositoryRestResource(collectionResourceRel = "cupom", path = "cupom")
+@RepositoryRestResource(collectionResourceRel = "cupom", path = "cupons")
 public interface CupomRepository extends CrudRepository<Cupom, Long> {
 
 }

@@ -8,12 +8,12 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Positive;
 
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 /**
  * @author elmonvn
@@ -21,8 +21,8 @@ import lombok.NoArgsConstructor;
  */
 @Entity
 @Data
-@NoArgsConstructor
 public class Cupom {
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
@@ -31,6 +31,7 @@ public class Cupom {
 	private String codigo;
 	
 	@NotNull
+	@Min(1)
 	@Max(100)
 	@Positive
 	private Short desconto;

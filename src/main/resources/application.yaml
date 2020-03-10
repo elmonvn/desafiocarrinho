@@ -5,6 +5,8 @@ spring:
     jpa:
       repositories:
         enabled: true
+    rest:
+      base-path: /api
   security:
     user:
       name: admin
